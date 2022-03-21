@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>J'apprends l'internet- Les vidéos et l'audio</title>
+  </head>
+  <body>
+<video controls witdh="550" height="550"
+autoplay loop muted
+poster="poster.png">
+<source src="white-rabbit-vid.mp4" type="video/mp4">
+<source src="white-rabbit-vid.webm"type="video/webm">
+<p>Votre navigateur ne prend pas en charge les vidéos HTML5. Voici, à la place, un <a href="rabbit320.mp4">lien à la vidéo</a>.</p>
+</video>
+
+<video controls witdh="550" height="550"
+loop muted preload="metadata"
+poster="poster.png">
+<source src="white-rabbit-vid.mp4" type="video/mp4">
+<source src="white-rabbit-vid.webm"type="video/webm">
+<track label="Français" kind="subtitles" src="subtitles_fr.vtt" srclang="fr" default>
+<p>Votre navigateur ne prend pas en charge les vidéos HTML5. Voici, à la place, un <a href="rabbit320.mp4">lien à la vidéo</a>.</p>
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YFhV_SkhZyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+  </body>
+</html>
